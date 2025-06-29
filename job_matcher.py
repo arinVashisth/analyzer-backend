@@ -10,11 +10,6 @@ from difflib import SequenceMatcher
 ##### NLP #####
 nlp = spacy.load("en_core_web_sm")
 
-##### ML #####
-from sentence_transformers import SentenceTransformer  
-model = SentenceTransformer("paraphrase-MiniLM-L3-v2")
-
-
 ALL_KNOWN_SKILLS = {
     # Programming Languages
     "python", "java", "c++", "c", "c#", "javascript", "typescript", "go", "rust", "ruby", "swift", "kotlin", "r", "scala", "perl", "dart",
