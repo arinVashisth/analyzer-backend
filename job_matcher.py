@@ -475,7 +475,7 @@ def match_resume_with_jd(resume_text, jd_text):
 
     matched_skills, missing_skills = fuzzy_skill_match(resume_skills, jd_skills) # LLM APPLIED
     skill_score = len(matched_skills) / len(jd_skills) if jd_skills else 0
-    BOOST = 0.15
+    BOOST = 30
     semantic_score += BOOST
     semantic_score = max(0.0, min(semantic_score, 1.0))
     skill_score = max(0.0, min(skill_score, 1.0))
