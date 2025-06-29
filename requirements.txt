@@ -1,0 +1,10 @@
+flask
+flask-cors
+requests
+python-dotenv
+huggingface-hub
+scikit-learn
+spacy
+pdfplumber
+sentence-transformers
+gunicorn
