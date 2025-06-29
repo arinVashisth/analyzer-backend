@@ -2,7 +2,6 @@ from flask import Flask, request, jsonify
 from flask_cors import CORS
 from resume_parser import extract_resume_text
 from job_matcher import match_resume_with_jd
-from dotenv import load_dotenv
 from openai import OpenAI
 import os
 
